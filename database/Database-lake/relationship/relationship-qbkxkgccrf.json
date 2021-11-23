@@ -1,0 +1,23 @@
+{
+	"name": "relationship-qbkxkgccrf",
+	"properties": {
+		"Namespace": {
+			"DatabaseName": "Database-lake"
+		},
+		"Name": "relationship-qbkxkgccrf",
+		"EntityType": "RELATIONSHIP",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "CustomerAssociation",
+		"ToTableName": "CustomerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "CustomerId",
+				"ToColumnName": "CustomerId"
+			}
+		],
+		"RelationshipType": 0
+	},
+	"type": "RELATIONSHIP"
+}
