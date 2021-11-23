@@ -1,0 +1,23 @@
+{
+	"name": "Database-lake",
+	"properties": {
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Agriculture\",\"Version\":\"0.1.0\"}}}"
+		},
+		"Name": "Database-lake",
+		"EntityType": "DATABASE",
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://prtestdev@prtestdev.dfs.core.windows.net/Database-lake",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "tesmyws-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
